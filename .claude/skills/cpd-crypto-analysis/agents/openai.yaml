@@ -1,0 +1,4 @@
+interface:
+  display_name: "CPD/CDP Crypto Analysis"
+  short_description: "Research and score crypto projects with the CPD (CDP) framework."
+  default_prompt: "Analyze [PROJECT] using CPD/CDP (Chain, Protocol, Dapp) with verifiable sources and scored output."

@@ -1,0 +1,38 @@
+# Secrets / local config
+.env
+.env.local
+
+# Runtime data dir (raw API caches, generated reports, trend snapshots, price cache)
+.token-research/
+
+# Archived runtime data (regenerable API caches / reports moved out of the working tree)
+archived/runtime-data/
+
+# Generated research artifacts — belt-and-suspenders in case the data dir is
+# relocated via TOKEN_RESEARCH_DATA_DIR or reports are written to the repo root.
+reports/
+**/reports/
+trends/
+**/trends/
+*-deep-report.json
+*.report.json
+
+# Python build / cache
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+**/.DS_Store
+articles/
+archived/
+docs/superpowers/
+docs/raw/
+docs/tasks/
